@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #e7e9fc;
+  background-color: white;
 }
 
 ul {
@@ -43,7 +43,6 @@ ul {
 }
 
 .contacts {
-  list-style: none;
   text-decoration: none;
   font-style: normal;
 }
@@ -112,7 +111,6 @@ button {
   border: none;
   padding: 16px 32px;
   font-size: 16px;
-  cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -139,7 +137,6 @@ button {
 
 footer {
   background-color: #2e2f42;
-  color: white;
 }
 
 footer .logo {
