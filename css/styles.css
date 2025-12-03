@@ -1,8 +1,9 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
+  text-decoration-color: #434455;
 }
 
 header {
@@ -37,6 +38,7 @@ ul {
 .nav-link {
   text-decoration: none;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -52,6 +54,7 @@ ul {
 .contact-link {
   text-decoration: none;
   color: #434455;
+  letter-spacing: 0.02em;
 }
 
 .contact-link:hover,
@@ -76,6 +79,7 @@ h2 {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 
 h3 {
@@ -117,7 +121,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: #3b47c4;
+  background-color: #404bbf;
 }
 
 .team {
