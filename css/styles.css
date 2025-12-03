@@ -1,8 +1,8 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   font-size: 16px;
-  line-height: 24px;
-  background-color: white;
+  line-height: 1.5;
+  background-color: #fff;
 }
 
 header {
@@ -19,6 +19,8 @@ ul {
   font-size: 18px;
   text-decoration: none;
   color: #2e2f42;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .logo-accent {
@@ -39,7 +41,7 @@ ul {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: red;
+  color: #4d5ae5;
 }
 
 .contacts {
@@ -49,19 +51,19 @@ ul {
 
 .contact-link {
   text-decoration: none;
-  color: #2e2f42;
+  color: #434455;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: red;
+  color: #4d5ae5;
 }
 
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -71,7 +73,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -80,7 +82,7 @@ h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -88,7 +90,7 @@ h3 {
 p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -103,15 +105,19 @@ p {
 }
 
 button {
-  width: 169px;
-  height: 56px;
-  border-radius: 4px;
   background-color: #4d5ae5;
   color: white;
   border: none;
-  padding: 16px 32px;
   font-size: 16px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+button:hover,
+button:focus {
+  background-color: #3b47c4;
 }
 
 .team {
@@ -146,7 +152,7 @@ footer .logo {
 footer > p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
