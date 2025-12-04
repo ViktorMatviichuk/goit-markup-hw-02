@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
-  text-decoration-color: #434455;
+  color: #434455;
 }
 
 header {
@@ -32,7 +32,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   color: #2e2f42;
-  text-decoration: none;
 }
 
 .nav-link {
@@ -41,29 +40,24 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #4d5ae5;
-}
-
-.contacts {
-  text-decoration: none;
-  font-style: normal;
-}
-
 .contact-link {
   text-decoration: none;
   color: #434455;
   letter-spacing: 0.02em;
 }
 
+.nav-link:hover,
+.nav-link:focus,
 .contact-link:hover,
 .contact-link:focus {
   color: #4d5ae5;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 h1 {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -73,7 +67,6 @@ h1 {
 }
 
 h2 {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -83,7 +76,6 @@ h2 {
 }
 
 h3 {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -96,7 +88,6 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .hero {
@@ -132,31 +123,22 @@ button:focus {
   background-color: white;
 }
 
-.team h2 {
-  text-align: center;
-}
-
 .team h3,
-.team p {
-  text-align: center;
-}
-
+.team h2,
+.team p,
 .portfolio h2 {
   text-align: center;
 }
 
 footer {
   background-color: #2e2f42;
-}
-
-footer .logo {
-  color: white;
-}
-
-footer > p {
+  color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+}
+
+footer .logo {
+  color: white;
 }
